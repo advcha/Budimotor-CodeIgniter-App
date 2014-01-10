@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #0b3e6f;
+	background: #0b3e6f url(../themes/dot-luv/images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png) 50% 50% repeat-x !important;
+	color: #f6f6f6;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #f6f6f6;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #0b3e6f;
+	background-image: -moz-linear-gradient(top, #0b3e6f, #0b3e6f);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0b3e6f), to(#0b3e6f));
+	background-image: -webkit-linear-gradient(top, #0b3e6f, #0b3e6f);
+	background-image: -o-linear-gradient(top, #0b3e6f, #0b3e6f);
+	background-image: linear-gradient(to bottom, #0b3e6f, #0b3e6f);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0b3e6f', endColorstr='#ff0b3e6f', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #f6f6f6;
+	background-color: #0b3e6f;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #f6f6f6; 
+}

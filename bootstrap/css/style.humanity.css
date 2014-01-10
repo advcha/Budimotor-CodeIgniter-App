@@ -1,0 +1,40 @@
+.navbar-inner {
+	border: 1px solid #d49768;
+	background: #cb842e url(../themes/humanity/images/ui-bg_glass_25_cb842e_1x400.png) 50% 50% repeat-x !important;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #cb842e;
+	background-image: -moz-linear-gradient(top, #d49768, #cb842e);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d49768), to(#cb842e));
+	background-image: -webkit-linear-gradient(top, #d49768, #cb842e);
+	background-image: -o-linear-gradient(top, #d49768, #cb842e);
+	background-image: linear-gradient(to bottom, #d49768, #cb842e);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd49768', endColorstr='#ffcb842e', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #ffffff;
+	background-color: #cb842e;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #ffffff; 
+}
+
+.footer {
+	border-top: 1px solid #d49768;
+}
+
+.footer-inner {
+	background: #cb842e url(../themes/humanity/images/ui-bg_glass_25_cb842e_1x400.png) 50% 50% repeat-x !important;
+	color: #ffffff;
+}

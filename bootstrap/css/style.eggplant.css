@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #231d2b;
+	background: #30273a url(../themes/eggplant/images/ui-bg_highlight-soft_25_30273a_1x100.png) 50% 50% repeat-x !important;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #30273a;
+	background-image: -moz-linear-gradient(top, #231d2b, #30273a);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#231d2b), to(#30273a));
+	background-image: -webkit-linear-gradient(top, #231d2b, #30273a);
+	background-image: -o-linear-gradient(top, #231d2b, #30273a);
+	background-image: linear-gradient(to bottom, #231d2b, #30273a);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff231d2b', endColorstr='#ff30273a', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #ffffff;
+	background-color: #30273a;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #ffffff; 
+}

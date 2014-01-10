@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #baaa5a;
+	background: #261803 url(../themes/swanky-purse/images/ui-bg_diamond_8_261803_10x8.png) 50% 50% repeat !important;
+	color: #eacd86;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #eacd86;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #261803;
+	background-image: -moz-linear-gradient(top, #baaa5a, #261803);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#baaa5a), to(#261803));
+	background-image: -webkit-linear-gradient(top, #baaa5a, #261803);
+	background-image: -o-linear-gradient(top, #baaa5a, #261803);
+	background-image: linear-gradient(to bottom, #baaa5a, #261803);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbaaa5a', endColorstr='#ff261803', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #eacd86;
+	background-color: #261803;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #eacd86; 
+}

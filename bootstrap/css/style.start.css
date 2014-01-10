@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #4297d7;
+	background: #2191c0 url(../themes/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png) 50% 50% repeat-x !important;
+	color: #eaf5f7;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #eaf5f7;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #2191c0;
+	background-image: -moz-linear-gradient(top, #4297d7, #2191c0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4297d7), to(#2191c0));
+	background-image: -webkit-linear-gradient(top, #4297d7, #2191c0);
+	background-image: -o-linear-gradient(top, #4297d7, #2191c0);
+	background-image: linear-gradient(to bottom, #4297d7, #2191c0);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4297d7', endColorstr='#ff2191c0', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #eaf5f7;
+	background-color: #2191c0;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #eaf5f7; 
+}

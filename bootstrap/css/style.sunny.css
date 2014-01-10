@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #494437;
+	background: #817865 url(../themes/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png) 50% 50% repeat-x !important;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #817865;
+	background-image: -moz-linear-gradient(top, #494437, #817865);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#494437), to(#817865));
+	background-image: -webkit-linear-gradient(top, #494437, #817865);
+	background-image: -o-linear-gradient(top, #494437, #817865);
+	background-image: linear-gradient(to bottom, #494437, #817865);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff494437', endColorstr='#ff817865', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #ffffff;
+	background-color: #817865;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #ffffff; 
+}

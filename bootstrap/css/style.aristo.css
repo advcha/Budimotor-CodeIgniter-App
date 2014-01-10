@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #B6B6B6;
+	background: #ededed !important; /*url(../themes/Aristo/images/bg_fallback.png) 0 0 repeat-x !important;*/
+	color: #4F4F4F;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #4F4F4F;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #ededed;
+	background-image: -moz-linear-gradient(top, #B6B6B6, #ededed);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B6B6B6), to(#ededed));
+	background-image: -webkit-linear-gradient(top, #B6B6B6, #ededed);
+	background-image: -o-linear-gradient(top, #B6B6B6, #ededed);
+	background-image: linear-gradient(to bottom, #B6B6B6, #ededed);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffB6B6B6', endColorstr='#ffededed', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #4F4F4F;
+	background-color: #ededed;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #4F4F4F; 
+}

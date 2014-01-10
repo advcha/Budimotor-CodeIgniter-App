@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #000000;
+	background: #9fda58 url(../themes/trontastic/images/ui-bg_gloss-wave_85_9fda58_500x100.png) 50% 50% repeat-x !important;
+	color: #222222;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #222222;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #9fda58;
+	background-image: -moz-linear-gradient(top, #000000, #9fda58);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#9fda58));
+	background-image: -webkit-linear-gradient(top, #000000, #9fda58);
+	background-image: -o-linear-gradient(top, #000000, #9fda58);
+	background-image: linear-gradient(to bottom, #000000, #9fda58);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff9fda58', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #222222;
+	background-color: #9fda58;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #222222; 
+}

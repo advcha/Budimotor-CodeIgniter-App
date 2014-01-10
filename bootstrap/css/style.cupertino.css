@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #aed0ea;
+	background: #deedf7 url(../themes/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png) 50% 50% repeat-x !important;
+	color: #222222;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #222222;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #deedf7;
+	background-image: -moz-linear-gradient(top, #aed0ea, #deedf7);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aed0ea), to(#deedf7));
+	background-image: -webkit-linear-gradient(top, #aed0ea, #deedf7);
+	background-image: -o-linear-gradient(top, #aed0ea, #deedf7);
+	background-image: linear-gradient(to bottom, #aed0ea, #deedf7);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaed0ea', endColorstr='#ffdeedf7', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #222222;
+	background-color: #deedf7;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #222222; 
+}

@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #d4ccb0;
+	background: #ece8da url(../themes/south-street/images/ui-bg_gloss-wave_100_ece8da_500x100.png) 50% 50% repeat-x !important;
+	color: #433f38;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #433f38;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #ece8da;
+	background-image: -moz-linear-gradient(top, #d4ccb0, #ece8da);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d4ccb0), to(#ece8da));
+	background-image: -webkit-linear-gradient(top, #d4ccb0, #ece8da);
+	background-image: -o-linear-gradient(top, #d4ccb0, #ece8da);
+	background-image: linear-gradient(to bottom, #d4ccb0, #ece8da);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd4ccb0', endColorstr='#ffece8da', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #433f38;
+	background-color: #ece8da;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #433f38; 
+}

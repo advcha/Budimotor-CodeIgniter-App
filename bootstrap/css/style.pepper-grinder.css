@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #d4d1bf;
+	background: #ffffff url(../themes/pepper-grinder/images/ui-bg_fine-grain_15_ffffff_60x60.png) 50% 50% repeat !important;
+	color: #453821;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #453821;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #ffffff;
+	background-image: -moz-linear-gradient(top, #d4d1bf, #ffffff);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d4d1bf), to(#ffffff));
+	background-image: -webkit-linear-gradient(top, #d4d1bf, #ffffff);
+	background-image: -o-linear-gradient(top, #d4d1bf, #ffffff);
+	background-image: linear-gradient(to bottom, #d4d1bf, #ffffff);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd4d1bf', endColorstr='#ffffffff', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #453821;
+	background-color: #ffffff;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #453821; 
+}

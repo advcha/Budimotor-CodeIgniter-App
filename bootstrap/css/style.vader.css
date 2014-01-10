@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #404040;
+	background: #888888 url(../themes/vader/images/ui-bg_highlight-hard_15_888888_1x100.png) 50% 50% repeat-x !important;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #888888;
+	background-image: -moz-linear-gradient(top, #404040, #888888);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#404040), to(#888888));
+	background-image: -webkit-linear-gradient(top, #404040, #888888);
+	background-image: -o-linear-gradient(top, #404040, #888888);
+	background-image: linear-gradient(to bottom, #404040, #888888);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff404040', endColorstr='#ff888888', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #ffffff;
+	background-color: #888888;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #ffffff; 
+}

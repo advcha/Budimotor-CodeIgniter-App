@@ -1,0 +1,31 @@
+.navbar-inner {
+	border: 1px solid #cccccc;
+	background: #f9f9f9 url(../themes/excite-bike/images/ui-bg_highlight-soft_100_f9f9f9_1x100.png) 50% 50% repeat-x !important;
+	color: #e69700;
+	font-weight: bold;
+}
+
+.btn-success {
+	color: #e69700;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #f9f9f9;
+	background-image: -moz-linear-gradient(top, #cccccc, #f9f9f9);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cccccc), to(#f9f9f9));
+	background-image: -webkit-linear-gradient(top, #cccccc, #f9f9f9);
+	background-image: -o-linear-gradient(top, #cccccc, #f9f9f9);
+	background-image: linear-gradient(to bottom, #cccccc, #f9f9f9);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcccccc', endColorstr='#fff9f9f9', GradientType=0);
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #e69700;
+	background-color: #f9f9f9;
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #e69700; 
+}
