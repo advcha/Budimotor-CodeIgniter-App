@@ -7,7 +7,7 @@
 			<div class="row">
 				
     			<div class="span12">
-    				© 2013 Budi Motor
+    				<?php echo date('Y'); ?> Budi Motor
     			</div> <!-- /span12 -->
     			
     		</div> <!-- /row -->
